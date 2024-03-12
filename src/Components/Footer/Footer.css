@@ -1,0 +1,15 @@
+.Footer {
+  margin-top: 5rem;
+  background-color: rgb(128, 128, 128);
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Footer .Support p {
+  font-size: 1.1em;
+}
+.Footer .Contact-us p {
+  font-size: 1.1em;
+}/*# sourceMappingURL=Footer.css.map */

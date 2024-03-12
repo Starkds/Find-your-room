@@ -1,0 +1,8 @@
+.destination-Cards {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}/*# sourceMappingURL=Destination.css.map */

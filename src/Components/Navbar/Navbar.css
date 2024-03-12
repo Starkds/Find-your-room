@@ -1,0 +1,40 @@
+nav {
+  width: 100vw;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Navbar {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Logo img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.Nav-list {
+  display: flex;
+}
+.Nav-list .list {
+  display: flex;
+  list-style: none;
+}
+.Nav-list .list li a {
+  font-size: 1.3rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.Search-bar button {
+  height: 2rem;
+  width: 15rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgb(119, 115, 115);
+}/*# sourceMappingURL=Navbar.css.map */
