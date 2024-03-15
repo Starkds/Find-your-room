@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Sora:wght@100..800&display=swap');
+
+
+.AboutUs{
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  background-position:center;   
+  display: flex;
+  flex-direction: column;
+
+
+  h1{
+    font-size: 10rem;
+    
+margin-left: 10rem;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+  color: white;
+  font-style: normal;
+}
+
+h2{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+   font-size: 3rem;
+   margin-left: 8rem;
+   margin-top: -4rem;
+   color: white;
+    font-style: normal;
+    padding-bottom:3rem;
+
+}
+
+p{
+   
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+
+}
