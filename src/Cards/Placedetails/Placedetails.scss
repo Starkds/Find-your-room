@@ -1,0 +1,101 @@
+.Living-Info {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Room-title {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Location-media {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  .Videos {
+    width: 50vw;
+    height: 50vh;
+
+    margin: auto;
+    margin-top: 0;
+
+    video {
+      background-size: cover;
+      width: 55vw;
+      height: 50vh;
+    }
+  }
+
+  .Images {
+    margin: auto;
+    margin-top: 0;
+    width: 42vw;
+    height: 50vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    img{
+      padding:0.1rem;
+      width: 20vw;
+    height: 25vh;
+    }
+  }
+}
+
+
+.description-pricing{
+  margin-top: -15rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  
+  .Room-details{
+    width: 30vw;
+    height: 30vh;
+   
+  }
+
+  .Room-pricing{
+    display: flex;
+    flex-direction: column;
+    width:30vw;
+    height:30vh;
+   
+
+    .price-tag{
+      display: flex;
+      flex-direction: column;
+
+      label{
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      input{
+        border: none ; 
+        border-bottom: 2px solid black;
+      }
+    }
+  }
+
+}
+
+.Facilities{
+  display: flex;
+  width: 90vw;
+  height: 50vh;
+ 
+  justify-content: space-around;
+}
+
+
