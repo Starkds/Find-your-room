@@ -15,7 +15,7 @@ function DestinationCard() {
     { id:9, img:"./images/Places/place-9.jpg",   name:"ratlam", description:"3bhk with balcony", price:"3000/month"},
     { id:10, img:"./images/Places/place-10.jpg",   name:"chandigarh", description:"3bhk with balcony", price:"3000/month"},
     { id:11, img:"./images/Places/place-11.jpg",   name:"delhi", description:"3bhk with balcony", price:"3000/month"},
-    { id:12, img:"./images/Places/place-4.jpg",   name:"madhura", description:"3bhk with balcony", price:"3000/month"}
+    { id:12, img:"./images/Places/place-4.jpg",   name:"madhura", description:"3bhk with balcony", price:"3000/month"} 
   ]
 
 

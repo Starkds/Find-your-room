@@ -22,16 +22,17 @@
   display: flex;
 
   .Videos {
+    
     width: 50vw;
     height: 50vh;
-
     margin: auto;
     margin-top: 0;
 
     video {
+      overflow: hidden;
       background-size: cover;
-      width: 55vw;
-      height: 50vh;
+      width: 100%;
+      height: 100%;
     }
   }
 

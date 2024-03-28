@@ -1,41 +1,41 @@
-import React from 'react'
-import "./Header.scss"
+import React from "react";
+import "./Header.scss";
+import { Link } from "react-router-dom";
 import { BsFillFilterSquareFill } from "react-icons/bs";
+
 function Header() {
   return (
     <>
-<div  className='Header'>
+      <div className="Header">
+        <Link to="./filterBox"className="Filter" >
+          Filter <BsFillFilterSquareFill />
+        </Link>
+        <div className="Location-finder">
+          <ul>
+            <li className="Destination">
+              <label>where</label>
+              <input type="text" placeholder="" />
+            </li>
 
-<button className="Filter">Filter      <BsFillFilterSquareFill/></button>
- <div className='Location-finder'>
-   <ul>
-    <li className='Destination'>
-      <label>where</label>
-      <input type='text' placeholder=''/>
-    </li>
-    
-    <li className='Starting-date'>
-    <label>to</label>
-    <input type='text' placeholder=''/>
-    </li>
+            <li className="Starting-date">
+              <label>to</label>
+              <input type="text" placeholder="" />
+            </li>
 
-    <li className="Ending-date">
-    <label>from</label>
-    <input type='text' placeholder=''/>
-    </li>
+            <li className="Ending-date">
+              <label>from</label>
+              <input type="text" placeholder="" />
+            </li>
 
-    <li className='persons'>
-      <label >person</label>
-      <input type='number' placeholder=''/>
-    </li>
-   </ul>
- </div>
-
-
-</div>
-      
+            <li className="persons">
+              <label>person</label>
+              <input type="number" placeholder="" />
+            </li>
+          </ul>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

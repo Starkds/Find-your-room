@@ -1,7 +1,8 @@
 
 import './App.css'
-import Placedetails from './Cards/Placedetails/Placedetails'
-import DestinationCard from './Components/destinationCards/DestinationCard'
+
+import Placedetails from './Cards/Placedetails/Placedetails.jsx'
+import DestinationCard from './Components/destinationCards/DestinationCard.jsx'
 
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <>
-    {/* <DestinationCard/> */}
+   {/* <DestinationCard/>  */}
 {/*    <Placedetails/> */}
+
     </>
   )
 }
