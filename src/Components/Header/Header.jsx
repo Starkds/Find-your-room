@@ -8,7 +8,8 @@ function Header() {
     <>
       <div className="Header">
         <Link to="./filterBox"className="Filter" >
-          Filter <BsFillFilterSquareFill />
+        <h3>Filter</h3>
+          <BsFillFilterSquareFill />
         </Link>
         <div className="Location-finder">
           <ul>

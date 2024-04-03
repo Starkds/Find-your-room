@@ -1,0 +1,83 @@
+.Login-Box {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 50vw;
+  height: 70vh;
+  border: 1px solid black;
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.Login-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 45vw;
+
+  .field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 2rem;
+
+    label {
+      font-size: 1.7rem;
+    }
+
+    input {
+      font-size: 1.3rem;
+      font-family: "Rakkas", serif;
+      font-weight: 100;
+      font-style: normal;
+      width: 30vw;
+      height: 4.5vh;
+      border: none;
+      border-bottom: 2px solid black;
+    }
+  }
+}
+
+.Login-Button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 5.5vh;
+    font-size: 2rem;
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 2px solid black;
+  }
+}
+
+.Login-Link {
+  .Google {
+    text-align: center;
+    width: 12rem;
+    border: 1.5px solid black;
+    border-radius: 1.2rem;
+  }
+}
+
+.signUp-Link {
+  
+    text-align: center;
+    width: 15rem;
+    
+
+  
+}
