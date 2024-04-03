@@ -42,15 +42,15 @@ function Placedetails() {
           </div>
           <div className="Room-pricing">
             <div className="price-tag">
-              <label>Duration-period</label>
+              <label>Time:</label>
               <input type="text" placeholder="" />
             </div>
             <div className="price-tag">
-              <label>Living-member</label>
+              <label>persons :</label>
               <input type="text" placeholder="" />
             </div>
             <div className="price-tag">
-              <label>Price</label>
+              <label>Price:</label>
               <input type="number" placeholder="" />
             </div>
           </div>
