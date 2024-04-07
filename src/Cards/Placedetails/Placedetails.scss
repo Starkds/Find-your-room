@@ -19,9 +19,9 @@
 .Location-media {
  
   width: 100vw;
-  height: 60vh;
   
-  display: flex;
+  
+  
 
   .Videos {
     
@@ -39,19 +39,9 @@
   }
 
   .Images {
-    margin: auto;
-    margin-top: 0;
-    width: 44vw;
-    height: 55vh;
-    
-    display: flex;
-    flex-wrap: wrap;
-
-    img{
-      padding:0.1rem;
-      width: 95%;
-    height: 95%;
-    }
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;    
   }
 }
 

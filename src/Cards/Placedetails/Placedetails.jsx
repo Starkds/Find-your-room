@@ -1,6 +1,16 @@
 import React from "react";
+
 import "./Placedetails.scss";
+import ImageSlider from "../ImageSlider/ImageSlider";
+
 function Placedetails() {
+  const slides = [
+    { url: " ./images/Location-media/image/Bedroom1.jpg", title: "Bedroom" },
+    { url: " ./images/Location-media/image/Kitchen1.jpg", title: "Kitchen1" },
+    { url: " ./images/Location-media/image/Bathroom1.jpg", title: "Bathroom" },
+    { url: " ./images/Location-media/image/kithcen2jpg", title: "kitchen2" },
+  ];
+
   return (
     <>
       <div className="Living-Info">
@@ -16,22 +26,7 @@ function Placedetails() {
           </div>
 
           <div className="Images">
-            <img
-              className="Bedroom"
-              src="./images/Location-media/image/Bedroom1.jpg"
-            />
-            <img
-              className="Kitchen"
-              src="./images/Location-media/image/Kitchen1.jpg"
-            />
-            <img
-              className="Bathroom"
-              src="./images/Location-media/image/Bathroom1.jpg"
-            />
-            <img
-              className="Kitchen"
-              src="./images/Location-media/image/Kitchen2.jpg"
-            />
+            <ImageSlider slides={slides} />
           </div>
         </div>
 
