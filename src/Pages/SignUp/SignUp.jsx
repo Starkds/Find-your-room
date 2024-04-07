@@ -1,11 +1,28 @@
 import React from 'react'
 import './SignUp.scss'
 import { FcGoogle } from "react-icons/fc";
-
+import { useState } from 'react';
 
 function SignUp() {
+
+  const [name , setName] = useState('');
+  const [password, setPassword] = useState('');
+  const [mobile, setMobile] = useState('');
+  const [email, setEmail] = useState('');
+
+  const form3handler = (event) =>{
+    event.preventDefault();
+
+    console.log("you are signed in" , {name,password,mobile,email});
+
+    setName('');
+    setPassword('');
+    setMobile('');
+    setEmail('');
+  };
+
   return (
-    <form>
+    <form onSubmit={form3handler}>
 <div className='SignUp-Box'>
 
   <h2>SignUp Here</h2>
@@ -13,24 +30,24 @@ function SignUp() {
 <div className='SignUp-field'>
   
   <div className='tags'>
-  <label> Name :</label>
-  <input type='text' placeholder='' />
+  <label htmlFor='Name'> Name :</label>
+  <input type='text' id='name' value={name} onChange={(e) =>setName(e.target.value)} required/>
   </div>
 
   <div className='tags'>
-  <label> Password :</label>
-  <input type='password' placeholder='' />
+  <label htmlFor='Password'> Password :</label>
+  <input type='password' id='Password' value={password} onChange={(e) => setPassword(e.target.value)} required/>
   </div>
   
   
   <div className='tags'>
-  <label> Mobile :</label>
-  <input type='number' placeholder='' />
+  <label htmlFor='Mobile'> Mobile :</label>
+  <input type='number' value={mobile} onChange={(e)=> setMobile(e.target.value)} required />
   </div>
 
   <div className='tags'>
-  <label> Email :</label>
-  <input type='text' placeholder='' />
+  <label htmlFor='Email'> Email :</label>
+  <input type='text' id='Email' value={email} onChange={(e) => setEmail(e.target.value) } />
 
   </div>
   

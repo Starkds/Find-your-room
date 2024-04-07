@@ -33,9 +33,11 @@ function Navbar() {
         <Link to="/Login">
         <button>login</button>
         </Link>
-        
-
-        <button>Become a Tenant</button>
+         
+         <Link to="/TenantForm">
+         <button>Become a Tenant</button>
+         </Link>
+       
         </div>
       </div>
     </nav>

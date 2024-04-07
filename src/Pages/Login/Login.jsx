@@ -13,7 +13,7 @@ function Login() {
   const formhandler = (event) =>{
     event.preventDefault();
 
-    console.log("form submitted" , {email, password});
+    console.log("You are logged in " , {email, password});
 
 
     setEmail('');

@@ -1,0 +1,33 @@
+
+
+
+.Videos {
+    
+    width: 50vw;
+    height: 60vh;
+    margin: auto;
+    margin-top: 0;
+
+    video {
+      overflow: hidden;
+      background-size: cover;
+      width: 90%;
+      height: 90%;
+    }
+  }
+
+  .Images {
+    margin: auto;
+    margin-top: 0;
+    width: 44vw;
+    height: 55vh;
+    
+   
+
+    img{
+      padding:0.1rem;
+      width: 95%;
+    height: 95%;
+    }
+  }
+
